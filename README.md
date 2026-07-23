@@ -1,18 +1,30 @@
 # 🛡️ GuardianOps AI
 
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Vercel-success?style=for-the-badge)](https://guardian-ops-ai-ten.vercel.app)
+[![API Docs](https://img.shields.io/badge/📘_API_Docs-Swagger-blue?style=for-the-badge)](https://guardianops-ai.onrender.com/docs)
+[![Backend](https://img.shields.io/badge/⚡_Backend-Render-46E3B7?style=for-the-badge)](https://guardianops-ai.onrender.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+
 **AI-Powered Multi-Agent Digital Infrastructure Monitoring & Incident Intelligence Platform**
 
-GuardianOps AI is a full-stack, enterprise-grade **AIOps platform** that monitors real
-infrastructure (via `psutil`) and real application log files (via `watchdog`), alongside a
-realistic simulated production environment (APIs, microservices, databases, caches, queues,
-containers). A **LangGraph-orchestrated team of 8 AI agents** continuously assesses
-infrastructure health, detects incidents, performs root cause analysis, generates dynamic
-recommendations, and keeps a live dashboard updated — all with zero external API keys required.
+GuardianOps AI is a full-stack, enterprise-grade **AIOps platform** designed to monitor infrastructure, analyze operational data, detect incidents, and provide AI-powered operational insights in real time.
 
-Access is protected by JWT-based authentication behind a single operator account, matching a
-single-tenant AIOps console rather than a public dashboard.
+The platform combines **real system monitoring**, **application log analysis**, **LangGraph multi-agent workflows**, and an interactive dashboard to help operators identify issues, perform root cause analysis, and receive intelligent remediation recommendations from a single interface.
 
-> Aligned with **UN Sustainable Development Goal 9** — Industry, Innovation and Infrastructure.
+It supports both **live infrastructure telemetry** through the standalone **Guardian Agent** and simulated enterprise environments for demonstration, development, and testing.
+
+Access is secured using **JWT authentication**, providing a single-operator management console similar to modern enterprise AIOps platforms.
+
+---
+
+## 🌐 Live Deployment
+
+| Service | URL |
+|---------|-----|
+| **Live Application** | https://guardian-ops-ai-ten.vercel.app |
+| **Backend API** | https://guardianops-ai.onrender.com |
+| **Swagger API Documentation** | https://guardianops-ai.onrender.com/docs |
+| **GitHub Repository** | https://github.com/Bharath-buoy/GuardianOps-AI |
 
 ---
 
@@ -360,13 +372,12 @@ or MongoDB are configured.
 
 **Bharath N**
 
-Master of Computer Applications
-
+Master of Computer Applications  
 St. Claret College, Bengaluru
 
-GitHub:
-https://github.com/Bharath-buoy
-
+- 🌐 GitHub: https://github.com/Bharath-buoy
+- 💼 LinkedIn: https://www.linkedin.com/in/bharath-n-489360245/
+- 🚀 Project: GuardianOps AI
 ---
 
 ## 🎯 Project Purpose
