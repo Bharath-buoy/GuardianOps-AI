@@ -28,25 +28,20 @@ export default function About() {
         </div>
         <h2 className="text-2xl font-bold text-white mt-4">GuardianOps AI</h2>
         <p className="text-sm text-gray-400 mt-2 max-w-xl mx-auto">
-          AI-Powered Multi-Agent Digital Infrastructure Monitoring & Incident Intelligence Platform
+          Cloud-Native AIOps Platform for Intelligent Infrastructure Operations
         </p>
       </Card>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <Card delay={0.05}>
-          <SectionHeading title="What It Does" />
+          <SectionHeading title="Platform Capabilities" />
           <p className="text-sm text-gray-400 leading-relaxed">
-            GuardianOps AI continuously monitors APIs, microservices, databases, caches, queues, and
-            containers across a simulated production environment. Eight specialized AI agents,
-            orchestrated by LangGraph, work together to assess infrastructure health, analyze logs
-            and metrics, detect incidents, perform root cause analysis, generate actionable
-            recommendations, and notify stakeholders — all visualized in a real-time enterprise
-            dashboard.
+            GuardianOps AI continuously monitors infrastructure, services, applications, and system telemetry to provide real-time operational visibility. Its multi-agent AI workflow analyzes metrics, logs, and incidents, identifies potential issues, performs root cause analysis, and delivers actionable recommendations through a unified monitoring dashboard.
           </p>
         </Card>
 
-        <Card delay={0.1}>
-          <SectionHeading title="SDG Alignment" action={<Target size={16} className="text-emerald-400" />} />
+        {/* <Card delay={0.1}>
+          <SectionHeading title="Enterprise Features" action={<Target size={16} className="text-emerald-400" />} />
           <p className="text-sm text-gray-400 leading-relaxed">
             This project is aligned with{" "}
             <span className="text-emerald-400 font-medium">UN Sustainable Development Goal 9</span> —
@@ -54,7 +49,7 @@ export default function About() {
             downtime through intelligent observability, GuardianOps AI contributes to building
             resilient digital infrastructure and fostering innovation through AI automation.
           </p>
-        </Card>
+        </Card> */}
       </div>
 
       <Card delay={0.15}>
@@ -70,7 +65,7 @@ export default function About() {
       </Card>
 
       <Card delay={0.2}>
-        <SectionHeading title="Technology Stack" action={<Layers size={16} className="text-violet-400" />} />
+        <SectionHeading title="CORE TECHNOLOGIES" action={<Layers size={16} className="text-violet-400" />} />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {Object.entries(STACK).map(([category, items]) => (
             <div key={category}>
@@ -94,21 +89,20 @@ export default function About() {
                                           │
                      ┌────────────────────┼────────────────────┐
                      ▼                    ▼                    ▼
-            Mock Telemetry         LangGraph Multi-Agent   MongoDB Atlas
-            Simulation Engine         Workflow Engine       (services,
-            (services, logs,       (8 sequential agents)    incidents,
-             metrics, incidents)                             metrics, logs,
+            Guardian Agent         LangGraph Multi-Agent   MongoDB Atlas
+             (Real-Time Metrics,      Workflow Engine       (services,
+              System Logs,            (8 sequential agents)   incidents,
+               Telemetry)                                     metrics, logs,
                                                               workflow_runs)`}
         </pre>
       </Card>
 
       <Card delay={0.3} className="text-center py-6">
         <p className="text-xs text-gray-500">
-          Built as a portfolio-grade full-stack SaaS project — suitable for IBM SkillsBuild
-          Internship submissions, MCA final year projects, and placement demonstrations.
+          GuardianOps AI is an intelligent AIOps platform designed to monitor infrastructure, analyze operational data, detect incidents, and assist operators with AI-powered insights and recommendations in real time.
         </p>
         <div className="flex items-center justify-center gap-1.5 mt-3 text-xs text-gray-600">
-          <Github size={13} /> github.com/your-username/guardianops-ai
+          <Github size={13} /> github.com/Bharath-buoy/guardianops-ai
         </div>
       </Card>
     </PageContainer>

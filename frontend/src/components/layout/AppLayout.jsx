@@ -9,7 +9,7 @@ const PAGE_META = {
   "/incidents": { title: "Incidents", subtitle: "AI-detected anomalies & root cause analysis" },
   "/analytics": { title: "Analytics", subtitle: "Trends, availability & performance insights" },
   "/workflow": { title: "Agent Workflow", subtitle: "LangGraph multi-agent orchestration" },
-  "/about": { title: "About", subtitle: "Project architecture & SDG alignment" },
+  "/about": { title: "About", subtitle: "AI-powered AIOps platform architecture and technology overview" },
 };
 
 export default function AppLayout() {

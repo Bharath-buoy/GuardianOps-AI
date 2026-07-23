@@ -54,9 +54,11 @@ export default function Sidebar() {
       <div className="px-4 py-4 border-t border-white/5">
         <div className="rounded-xl p-3 glass-panel">
           <p className="text-[11px] text-gray-400 leading-relaxed">
-            Aligned with UN SDG 9 — building resilient infrastructure through
-            intelligent automation.
-          </p>
+            Guardian Agent Connected
+
+            Real-time monitoring
+            AI-powered analysis
+            Cloud-native deployment
         </div>
       </div>
     </aside>
