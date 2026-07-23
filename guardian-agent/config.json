@@ -1,0 +1,8 @@
+{
+  "server_url": "http://localhost:8000",
+  "api_key": "guardianops_ai_2026_super_secret_key",
+  "agent_id": "guardian-62f2d8020445",
+  "logs_dir": "./logs",
+  "send_interval_seconds": 30,
+  "request_timeout_seconds": 10
+}
