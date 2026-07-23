@@ -59,6 +59,7 @@ export default function Sidebar() {
             Real-time monitoring
             AI-powered analysis
             Cloud-native deployment
+          </p>
         </div>
       </div>
     </aside>
