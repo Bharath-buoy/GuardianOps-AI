@@ -355,17 +355,37 @@ or MongoDB are configured.
 
 ---
 
-## 🎓 Project Context
 
-Built as a portfolio-quality, production-structured AIOps application suitable for:
+# 👨‍💻 Author
 
-- IBM SkillsBuild Internship submissions
-- MCA Final Year Project evaluation
-- GitHub portfolio showcase
-- Placement / interview demonstrations
+**Bharath N**
+
+Master of Computer Applications
+
+St. Claret College, Bengaluru
+
+GitHub:
+https://github.com/Bharath-buoy
 
 ---
 
+## 🎯 Project Purpose
+
+GuardianOps AI is a production-inspired AIOps platform built to demonstrate modern infrastructure monitoring, AI-powered incident detection, and intelligent operational insights.
+
+The project showcases enterprise software architecture by combining real-time telemetry collection, multi-agent AI workflows, cloud-native backend services, and an interactive monitoring dashboard.
+
+## 🌟 Key Highlights
+
+- Real-time infrastructure monitoring
+- Standalone Guardian Agent for remote machine telemetry
+- AI-powered incident detection and root cause analysis
+- LangGraph multi-agent workflow orchestration
+- Secure JWT authentication
+- MongoDB Atlas cloud persistence
+- Modern React dashboard with FastAPI backend
+
+---
 ## 📄 License
 
 MIT — free to use, modify, and build upon for educational and portfolio purposes.
